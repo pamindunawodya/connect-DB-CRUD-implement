@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="connect-DB:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>connect-DB</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="connect-DB-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="connect-DB:war exploded" />
+    </root>
+  </artifact>
+</component>
